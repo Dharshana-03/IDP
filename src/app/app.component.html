@@ -1,0 +1,35 @@
+
+<form>
+  <label>Principle :</label><input type="number" #p><br>
+
+  <label>Month's :</label><input type="number" #m><br>
+
+  <label>Rate of Intrest :</label><input type="number" value="{{rateOfInterest}}" #r><br>
+
+  <label>Loan Type</label>
+  <select id="myval" (change)="select(sele.value)" #sele>
+    <option value=5>
+      Vehicle
+   </option >
+    <option value=3>
+     Home
+    </option>
+    <option value=8>
+      Personal
+    </option>
+    <option value=9>
+      Education
+    </option>
+  </select><br>
+  <input type="button" value="Calculate" (click)="cal(p.value,m.value,r.value)">
+  <input type="Reset" value="Reset">
+</form>
+<!-- <input type="text" [(ngModel)]="mydata" style="width: 300px;height: 40px;border-radius: 20px;">  
+
+
+
+<br>
+
+{{mydata}} -->
+<app-register></app-register>
+<router-outlet></router-outlet>

@@ -1,0 +1,14 @@
+<div class="menu">
+    <h1>Registration Here</h1> 
+    <form> 
+      <label>Name:</label><input type="text" #myname autocomplete="off">  
+      <br> 
+      <label>Password:</label><input type="text" #mypass  autocomplete="off">  
+      <br>  
+      <label>Mobile</label><input type="text" #myphone autocomplete="off">  
+      <input type="button" value="log" (click)="login(myname.value,mypass.value,myphone.value)"> 
+      <br>        
+    </form>      
+     <a routerLink="login" (click)="reg()" >Already have Account? Login Here</a>  
+  </div>  
+  <router-outlet></router-outlet>

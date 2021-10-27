@@ -1,0 +1,10 @@
+<div class="menu">
+    <h1>Login Here</h1>
+    <form>
+      <label>Name:</label><input type="text" #myname autocomplete="off">
+      <br>
+      <label>Password:</label><input type="text" #mypass  autocomplete="off">
+      <br>
+      <input type="button" value="reg" (click)="register(myname.value,mypass.value)">
+   </form>
+  </div>
