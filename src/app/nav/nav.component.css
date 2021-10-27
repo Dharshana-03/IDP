@@ -1,0 +1,72 @@
+.nav{
+    width:100%;
+    height: 52px;
+    background-color:#42094B; 
+  }
+  .nav a{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    float:right;
+    padding:15px;
+    font-family:cursive;
+    height: 52px;
+  }
+  .nav a:hover{
+    background-color:rgb(255, 138, 156) ;
+    color:white;
+    text-decoration: none;
+    font-family: cursive;
+  }
+  .option{
+    background-color: rgb(175, 13, 108);
+   width: 100%;
+   height: 30px;
+   float: right;
+  }
+  .option a{
+
+    font-size: 17px;
+    padding: 20px;
+    color: white;
+    font-family: cursive;
+  
+  }
+  .option a:hover{
+    color:white;
+    font-size: 17px;   
+  }
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  .song-dd a{
+    text-decoration: none;
+    color: rgb(255, 138, 156);
+    padding: 12px 16px;
+    display: block;
+  }
+  
+  .song-dd{
+    position: absolute;
+    background-color: white;
+    display: none;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 200px;
+    height: auto;
+  }
+  .song-dd a:hover{
+    background-color:rgb(255, 138, 156);
+    color: white;
+    font-size: 17px;
+  
+  }
+  .dropdown:hover .song-dd{
+    display: block;
+  }
+  .dropdown:hover .song{
+    font-size: 17px;
+  }
+  

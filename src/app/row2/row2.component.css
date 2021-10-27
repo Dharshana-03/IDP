@@ -1,0 +1,15 @@
+.bgimage{
+    position: relative;
+    z-index: -1;
+  }
+  .welcome{
+    position: absolute;
+    top: 80px;
+    right: 350px;
+  }
+  .welcome h1{
+    font-size: 60px;
+    font-family:cursive;
+    color: white;
+  }
+ 
